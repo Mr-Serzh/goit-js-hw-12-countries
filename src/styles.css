@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  text-align: center;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('./img/blank-world-map.jpg');
+  background-color: rgba(47, 48, 58, 0.8);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffff00;
+}
+
+.title {
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 55px;
+  letter-spacing: 5px;
+  color: #ff00ff;
+}
+
+.input-search {
+  width: auto;
+
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 6px 12px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.list {
+  margin: 7px;
+}
+
+.card-container {
+  margin: 25px 0;
+}
+
+.country-item {
+  margin: 7px;
+}
+
+.country-img {
+  margin-top: 20px;
+}
