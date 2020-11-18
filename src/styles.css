@@ -11,6 +11,11 @@ a {
   color: inherit;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   min-height: 100vh;
