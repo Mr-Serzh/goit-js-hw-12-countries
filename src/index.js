@@ -9,7 +9,6 @@ import '@pnotify/core/dist/BrightTheme.css';
 
 const inputEl = document.querySelector('.input-search');
 const cardContainer = document.querySelector('.js-card-container');
-let countryToSearch = '';
 
 inputEl.addEventListener(
   'input',
@@ -19,6 +18,7 @@ inputEl.addEventListener(
 );
 
 function onSearch() {
+  let countryToSearch = '';
   countryToSearch = inputEl.value;
   console.log(countryToSearch);
 
